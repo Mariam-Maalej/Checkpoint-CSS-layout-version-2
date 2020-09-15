@@ -1,0 +1,276 @@
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #747474;
+  font-weight: 400;
+}
+h1 {
+  font-weight: 100;
+  color: #00b39b;
+  font-size: 34px;
+}
+main {
+  margin-right: 130px;
+  margin-left: 130px;
+}
+/************************ CSS Nav *****************/
+.logo-docplanner {
+  width: 200px;
+  height: 80px;
+  margin-right: auto;
+}
+.navmenu {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  right: 130px;
+  left: 130px;
+  background-color: white;
+  z-index: 1;
+}
+ul {
+  list-style-type: none;
+}
+.navbar a li {
+  margin-right: 30px;
+}
+.navmenu a {
+  text-decoration: none;
+  color: gray;
+}
+.navbar a:hover {
+  color: #00b39b;
+}
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  width: auto;
+}
+.downmenu {
+  display: flex;
+}
+.down {
+  display: none;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  line-height: 200%;
+  background-color: white;
+  cursor: pointer;
+  box-shadow: 0 5px 10px 0 #d3cfc9;
+  width:250px;
+  position: absolute;
+  top: 50px;
+  right: 5px;
+}
+.down li{
+  padding: 10px 0;
+}
+
+.down a:hover {
+  display: inline-block;
+  margin: 3px;
+  color: #00b39b;
+}
+.downmenu:hover .down{
+  display: flex;
+}
+/**************************** CSS Introduction *****************/
+.logotop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.doc {
+  color: #00b39b;
+  font-weight: bold;
+  font-size: 30px;
+}
+.group {
+  font-weight: bold;
+  font-size: 30px;
+}
+#Aboutus {
+  margin-top: 100px;
+}
+/**************************** CSS Services section ***************/
+
+.container {
+  display: inline-flex;
+  justify-content: space-between;
+  width: auto;
+  padding-bottom: 60px;
+}
+.parag {
+  padding: 10px;
+  line-height: 1.75;
+  font-weight: 400;
+}
+.choice {
+  display: flex;
+  justify-content: space-between;
+}
+.doctor {
+  background: #3d83df;
+  color: #fff;
+  border-radius: 10px;
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.patient {
+  background: #00b39b;
+  border-radius: 10px;
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  position: relative;
+  height: 350px;
+  overflow: hidden;
+}
+.screen {
+  position: absolute;
+  width: 400px;
+  height: 250px;
+  bottom: 0;
+  left: 200px;
+}
+.select-button {
+  border: 0px;
+  outline: 0px;
+  padding: 10px;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 12px;
+}
+.choice h2 {
+  color: #fff;
+  font-weight: lighter;
+}
+.choice h4 {
+  color: #fff;
+  font-weight: lighter;
+}
+/*************************************** CSS links section ***************/
+.global {
+  display: inline-flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.global li {
+  display: inline-flex;
+  justify-content: right;
+  padding-right: 20px;
+}
+.global h2{
+ font-weight: lighter;
+ color: #00b39b;
+}
+.global ul {
+  line-height: 200%;
+}
+
+.global svg {
+  display: flex;
+  fill: lightgray;
+  width: 120px;
+}
+.global svg:hover{
+  cursor: pointer;
+  fill: #00b39b;
+}
+/********************************* CSS platform section ***************/
+.mainplatform {
+  background-color: rgb(206, 248, 248);
+  margin-right: -130px;
+  margin-left: -130px;
+  padding-left: 130px;
+  padding-right: 130px;
+  display: inline-flex;
+  position: relative;
+  overflow: hidden;
+}
+.mainplatform p {
+  color: gray;
+  text-align: left;
+}
+.platformtitle {
+  padding-right: 140px;
+}
+.platform-logo{
+  position: absolute;
+  width: 500px;
+  height: 450px;
+  bottom: -100px;
+  left: 50px;
+}
+#active {
+  margin-top: 50px;
+}
+.platform {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+.it-platform {
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.it-platform h3 {
+  color: #00b39b;
+  text-align: center;
+}
+.it-platform p {
+  text-align: center;
+  font-size: small;
+}
+/*************************************** CSS city links section ***************/
+.maincity {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+.town {
+  padding-top: 50px;
+}
+.town h2 {
+  text-align: center;
+  font-weight: 500;
+  color: #00b39b;
+}
+.town p {
+  text-align: center;
+}
+.button {
+  text-decoration: none;
+  background-color: rgb(62, 94, 233);
+  color: white;
+  font-size: small;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 170px;
+}
+/********************************** CSS footer ***************/
+footer {
+  padding-top: 50px;
+  text-align: center;
+  color: #747474;
+  font-size: .75em;
+}
+.link a {
+  text-decoration: none;
+}
+.link a:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
